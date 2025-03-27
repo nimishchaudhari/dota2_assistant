@@ -8,7 +8,7 @@ add_executable(unit_tests
 )
 
 target_link_libraries(unit_tests PRIVATE
-    GTest::gtest_main
+    GTest::gtest
     GTest::gmock
     dota2_assistant_core
     dota2_assistant_services
