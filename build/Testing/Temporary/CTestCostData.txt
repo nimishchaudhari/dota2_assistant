@@ -1,0 +1,16 @@
+GameStateTest.ConstructorDefaultValues 2 0.0102877
+GameStateTest.UpdateProvider 2 0.00841525
+GameStateTest.UpdateMap 2 0.0084843
+GameStateTest.UpdatePlayer 2 0.00816585
+GameStateTest.UpdateHero 2 0.0085873
+GameStateTest.Reset 2 0.0073878
+GameStateTest.IsValid 2 0.00866825
+AbilityTest.BasicFunctionality 2 0.0088102
+ItemTest.BasicFunctionality 2 0.00719995
+GSIConnectorTest.Construction 2 0.0082732
+GSIConnectorTest.DeployGSIConfig 2 0.00938395
+GSIConnectorTest.InitializeAndShutdown 2 0.0636611
+GSIConnectorTest.RegisterEventCallback 2 0.00801035
+GSIConnectorTest.GetTimeSinceLastUpdate 1 0.0300939
+GSIConnectorTest.ProcessGSIUpdate 0 0
+---

@@ -1,0 +1,14 @@
+# Target labels
+ googletest-populate
+# Source files and their labels
+D:/Claude_working_dir/dota2_assistant/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate
+D:/Claude_working_dir/dota2_assistant/build/_deps/googletest-subbuild/CMakeFiles/6e27e13180c955f5c25b44ed2a93e3a5/googletest-populate.rule
+D:/Claude_working_dir/dota2_assistant/build/_deps/googletest-subbuild/CMakeFiles/4a7a7793a9a6f6994838822a1c44e043/googletest-populate-complete.rule
+D:/Claude_working_dir/dota2_assistant/build/_deps/googletest-subbuild/CMakeFiles/77c5a93738766e37b7da5f868be14345/googletest-populate-build.rule
+D:/Claude_working_dir/dota2_assistant/build/_deps/googletest-subbuild/CMakeFiles/77c5a93738766e37b7da5f868be14345/googletest-populate-configure.rule
+D:/Claude_working_dir/dota2_assistant/build/_deps/googletest-subbuild/CMakeFiles/77c5a93738766e37b7da5f868be14345/googletest-populate-download.rule
+D:/Claude_working_dir/dota2_assistant/build/_deps/googletest-subbuild/CMakeFiles/77c5a93738766e37b7da5f868be14345/googletest-populate-install.rule
+D:/Claude_working_dir/dota2_assistant/build/_deps/googletest-subbuild/CMakeFiles/77c5a93738766e37b7da5f868be14345/googletest-populate-mkdir.rule
+D:/Claude_working_dir/dota2_assistant/build/_deps/googletest-subbuild/CMakeFiles/77c5a93738766e37b7da5f868be14345/googletest-populate-patch.rule
+D:/Claude_working_dir/dota2_assistant/build/_deps/googletest-subbuild/CMakeFiles/77c5a93738766e37b7da5f868be14345/googletest-populate-test.rule
+D:/Claude_working_dir/dota2_assistant/build/_deps/googletest-subbuild/CMakeFiles/77c5a93738766e37b7da5f868be14345/googletest-populate-update.rule

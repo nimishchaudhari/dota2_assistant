@@ -1,0 +1,398 @@
+Start testing: Mar 27 13:31 W. Europe Standard Time
+----------------------------------------------------------
+1/15 Testing: GameStateTest.ConstructorDefaultValues
+1/15 Test: GameStateTest.ConstructorDefaultValues
+Command: "D:/Claude_working_dir/dota2_assistant/build/bin/Release/unit_tests.exe" "--gtest_filter=GameStateTest.ConstructorDefaultValues" "--gtest_also_run_disabled_tests"
+Directory: D:/Claude_working_dir/dota2_assistant/build/tests/unit
+"GameStateTest.ConstructorDefaultValues" start time: Mar 27 13:31 W. Europe Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\Claude_working_dir\dota2_assistant\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GameStateTest.ConstructorDefaultValues
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GameStateTest
+[ RUN      ] GameStateTest.ConstructorDefaultValues
+[       OK ] GameStateTest.ConstructorDefaultValues (0 ms)
+[----------] 1 test from GameStateTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"GameStateTest.ConstructorDefaultValues" end time: Mar 27 13:31 W. Europe Standard Time
+"GameStateTest.ConstructorDefaultValues" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/15 Testing: GameStateTest.UpdateProvider
+2/15 Test: GameStateTest.UpdateProvider
+Command: "D:/Claude_working_dir/dota2_assistant/build/bin/Release/unit_tests.exe" "--gtest_filter=GameStateTest.UpdateProvider" "--gtest_also_run_disabled_tests"
+Directory: D:/Claude_working_dir/dota2_assistant/build/tests/unit
+"GameStateTest.UpdateProvider" start time: Mar 27 13:31 W. Europe Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\Claude_working_dir\dota2_assistant\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GameStateTest.UpdateProvider
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GameStateTest
+[ RUN      ] GameStateTest.UpdateProvider
+[       OK ] GameStateTest.UpdateProvider (0 ms)
+[----------] 1 test from GameStateTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"GameStateTest.UpdateProvider" end time: Mar 27 13:31 W. Europe Standard Time
+"GameStateTest.UpdateProvider" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/15 Testing: GameStateTest.UpdateMap
+3/15 Test: GameStateTest.UpdateMap
+Command: "D:/Claude_working_dir/dota2_assistant/build/bin/Release/unit_tests.exe" "--gtest_filter=GameStateTest.UpdateMap" "--gtest_also_run_disabled_tests"
+Directory: D:/Claude_working_dir/dota2_assistant/build/tests/unit
+"GameStateTest.UpdateMap" start time: Mar 27 13:31 W. Europe Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\Claude_working_dir\dota2_assistant\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GameStateTest.UpdateMap
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GameStateTest
+[ RUN      ] GameStateTest.UpdateMap
+[       OK ] GameStateTest.UpdateMap (0 ms)
+[----------] 1 test from GameStateTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"GameStateTest.UpdateMap" end time: Mar 27 13:31 W. Europe Standard Time
+"GameStateTest.UpdateMap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/15 Testing: GameStateTest.UpdatePlayer
+4/15 Test: GameStateTest.UpdatePlayer
+Command: "D:/Claude_working_dir/dota2_assistant/build/bin/Release/unit_tests.exe" "--gtest_filter=GameStateTest.UpdatePlayer" "--gtest_also_run_disabled_tests"
+Directory: D:/Claude_working_dir/dota2_assistant/build/tests/unit
+"GameStateTest.UpdatePlayer" start time: Mar 27 13:31 W. Europe Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\Claude_working_dir\dota2_assistant\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GameStateTest.UpdatePlayer
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GameStateTest
+[ RUN      ] GameStateTest.UpdatePlayer
+[       OK ] GameStateTest.UpdatePlayer (0 ms)
+[----------] 1 test from GameStateTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"GameStateTest.UpdatePlayer" end time: Mar 27 13:31 W. Europe Standard Time
+"GameStateTest.UpdatePlayer" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/15 Testing: GameStateTest.UpdateHero
+5/15 Test: GameStateTest.UpdateHero
+Command: "D:/Claude_working_dir/dota2_assistant/build/bin/Release/unit_tests.exe" "--gtest_filter=GameStateTest.UpdateHero" "--gtest_also_run_disabled_tests"
+Directory: D:/Claude_working_dir/dota2_assistant/build/tests/unit
+"GameStateTest.UpdateHero" start time: Mar 27 13:31 W. Europe Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\Claude_working_dir\dota2_assistant\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GameStateTest.UpdateHero
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GameStateTest
+[ RUN      ] GameStateTest.UpdateHero
+[       OK ] GameStateTest.UpdateHero (0 ms)
+[----------] 1 test from GameStateTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"GameStateTest.UpdateHero" end time: Mar 27 13:31 W. Europe Standard Time
+"GameStateTest.UpdateHero" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/15 Testing: GameStateTest.Reset
+6/15 Test: GameStateTest.Reset
+Command: "D:/Claude_working_dir/dota2_assistant/build/bin/Release/unit_tests.exe" "--gtest_filter=GameStateTest.Reset" "--gtest_also_run_disabled_tests"
+Directory: D:/Claude_working_dir/dota2_assistant/build/tests/unit
+"GameStateTest.Reset" start time: Mar 27 13:31 W. Europe Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\Claude_working_dir\dota2_assistant\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GameStateTest.Reset
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GameStateTest
+[ RUN      ] GameStateTest.Reset
+[       OK ] GameStateTest.Reset (0 ms)
+[----------] 1 test from GameStateTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"GameStateTest.Reset" end time: Mar 27 13:31 W. Europe Standard Time
+"GameStateTest.Reset" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/15 Testing: GameStateTest.IsValid
+7/15 Test: GameStateTest.IsValid
+Command: "D:/Claude_working_dir/dota2_assistant/build/bin/Release/unit_tests.exe" "--gtest_filter=GameStateTest.IsValid" "--gtest_also_run_disabled_tests"
+Directory: D:/Claude_working_dir/dota2_assistant/build/tests/unit
+"GameStateTest.IsValid" start time: Mar 27 13:31 W. Europe Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\Claude_working_dir\dota2_assistant\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GameStateTest.IsValid
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GameStateTest
+[ RUN      ] GameStateTest.IsValid
+[       OK ] GameStateTest.IsValid (0 ms)
+[----------] 1 test from GameStateTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"GameStateTest.IsValid" end time: Mar 27 13:31 W. Europe Standard Time
+"GameStateTest.IsValid" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/15 Testing: AbilityTest.BasicFunctionality
+8/15 Test: AbilityTest.BasicFunctionality
+Command: "D:/Claude_working_dir/dota2_assistant/build/bin/Release/unit_tests.exe" "--gtest_filter=AbilityTest.BasicFunctionality" "--gtest_also_run_disabled_tests"
+Directory: D:/Claude_working_dir/dota2_assistant/build/tests/unit
+"AbilityTest.BasicFunctionality" start time: Mar 27 13:31 W. Europe Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\Claude_working_dir\dota2_assistant\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = AbilityTest.BasicFunctionality
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AbilityTest
+[ RUN      ] AbilityTest.BasicFunctionality
+[       OK ] AbilityTest.BasicFunctionality (0 ms)
+[----------] 1 test from AbilityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"AbilityTest.BasicFunctionality" end time: Mar 27 13:31 W. Europe Standard Time
+"AbilityTest.BasicFunctionality" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/15 Testing: ItemTest.BasicFunctionality
+9/15 Test: ItemTest.BasicFunctionality
+Command: "D:/Claude_working_dir/dota2_assistant/build/bin/Release/unit_tests.exe" "--gtest_filter=ItemTest.BasicFunctionality" "--gtest_also_run_disabled_tests"
+Directory: D:/Claude_working_dir/dota2_assistant/build/tests/unit
+"ItemTest.BasicFunctionality" start time: Mar 27 13:31 W. Europe Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\Claude_working_dir\dota2_assistant\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = ItemTest.BasicFunctionality
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ItemTest
+[ RUN      ] ItemTest.BasicFunctionality
+[       OK ] ItemTest.BasicFunctionality (0 ms)
+[----------] 1 test from ItemTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ItemTest.BasicFunctionality" end time: Mar 27 13:31 W. Europe Standard Time
+"ItemTest.BasicFunctionality" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/15 Testing: GSIConnectorTest.Construction
+10/15 Test: GSIConnectorTest.Construction
+Command: "D:/Claude_working_dir/dota2_assistant/build/bin/Release/unit_tests.exe" "--gtest_filter=GSIConnectorTest.Construction" "--gtest_also_run_disabled_tests"
+Directory: D:/Claude_working_dir/dota2_assistant/build/tests/unit
+"GSIConnectorTest.Construction" start time: Mar 27 13:31 W. Europe Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\Claude_working_dir\dota2_assistant\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GSIConnectorTest.Construction
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GSIConnectorTest
+[ RUN      ] GSIConnectorTest.Construction
+[       OK ] GSIConnectorTest.Construction (0 ms)
+[----------] 1 test from GSIConnectorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"GSIConnectorTest.Construction" end time: Mar 27 13:31 W. Europe Standard Time
+"GSIConnectorTest.Construction" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/15 Testing: GSIConnectorTest.DeployGSIConfig
+11/15 Test: GSIConnectorTest.DeployGSIConfig
+Command: "D:/Claude_working_dir/dota2_assistant/build/bin/Release/unit_tests.exe" "--gtest_filter=GSIConnectorTest.DeployGSIConfig" "--gtest_also_run_disabled_tests"
+Directory: D:/Claude_working_dir/dota2_assistant/build/tests/unit
+"GSIConnectorTest.DeployGSIConfig" start time: Mar 27 13:31 W. Europe Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\Claude_working_dir\dota2_assistant\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GSIConnectorTest.DeployGSIConfig
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GSIConnectorTest
+[ RUN      ] GSIConnectorTest.DeployGSIConfig
+GSI config file deployed to: .\game\dota\cfg\gamestate_integration\gamestate_integration_dota2_assistant.cfg
+[       OK ] GSIConnectorTest.DeployGSIConfig (3 ms)
+[----------] 1 test from GSIConnectorTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"GSIConnectorTest.DeployGSIConfig" end time: Mar 27 13:31 W. Europe Standard Time
+"GSIConnectorTest.DeployGSIConfig" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/15 Testing: GSIConnectorTest.InitializeAndShutdown
+12/15 Test: GSIConnectorTest.InitializeAndShutdown
+Command: "D:/Claude_working_dir/dota2_assistant/build/bin/Release/unit_tests.exe" "--gtest_filter=GSIConnectorTest.InitializeAndShutdown" "--gtest_also_run_disabled_tests"
+Directory: D:/Claude_working_dir/dota2_assistant/build/tests/unit
+"GSIConnectorTest.InitializeAndShutdown" start time: Mar 27 13:31 W. Europe Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\Claude_working_dir\dota2_assistant\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GSIConnectorTest.InitializeAndShutdown
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GSIConnectorTest
+[ RUN      ] GSIConnectorTest.InitializeAndShutdown
+Starting GSI HTTP server on port 4000
+[       OK ] GSIConnectorTest.InitializeAndShutdown (110 ms)
+[----------] 1 test from GSIConnectorTest (110 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (110 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"GSIConnectorTest.InitializeAndShutdown" end time: Mar 27 13:31 W. Europe Standard Time
+"GSIConnectorTest.InitializeAndShutdown" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/15 Testing: GSIConnectorTest.RegisterEventCallback
+13/15 Test: GSIConnectorTest.RegisterEventCallback
+Command: "D:/Claude_working_dir/dota2_assistant/build/bin/Release/unit_tests.exe" "--gtest_filter=GSIConnectorTest.RegisterEventCallback" "--gtest_also_run_disabled_tests"
+Directory: D:/Claude_working_dir/dota2_assistant/build/tests/unit
+"GSIConnectorTest.RegisterEventCallback" start time: Mar 27 13:31 W. Europe Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\Claude_working_dir\dota2_assistant\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GSIConnectorTest.RegisterEventCallback
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GSIConnectorTest
+[ RUN      ] GSIConnectorTest.RegisterEventCallback
+[       OK ] GSIConnectorTest.RegisterEventCallback (0 ms)
+[----------] 1 test from GSIConnectorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"GSIConnectorTest.RegisterEventCallback" end time: Mar 27 13:31 W. Europe Standard Time
+"GSIConnectorTest.RegisterEventCallback" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/15 Testing: GSIConnectorTest.GetTimeSinceLastUpdate
+14/15 Test: GSIConnectorTest.GetTimeSinceLastUpdate
+Command: "D:/Claude_working_dir/dota2_assistant/build/bin/Release/unit_tests.exe" "--gtest_filter=GSIConnectorTest.GetTimeSinceLastUpdate" "--gtest_also_run_disabled_tests"
+Directory: D:/Claude_working_dir/dota2_assistant/build/tests/unit
+"GSIConnectorTest.GetTimeSinceLastUpdate" start time: Mar 27 13:31 W. Europe Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\Claude_working_dir\dota2_assistant\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GSIConnectorTest.GetTimeSinceLastUpdate
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GSIConnectorTest
+[ RUN      ] GSIConnectorTest.GetTimeSinceLastUpdate
+[       OK ] GSIConnectorTest.GetTimeSinceLastUpdate (10 ms)
+[----------] 1 test from GSIConnectorTest (11 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (11 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"GSIConnectorTest.GetTimeSinceLastUpdate" end time: Mar 27 13:31 W. Europe Standard Time
+"GSIConnectorTest.GetTimeSinceLastUpdate" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/15 Testing: GSIConnectorTest.ProcessGSIUpdate
+15/15 Test: GSIConnectorTest.ProcessGSIUpdate
+Command: ""
+Directory: D:/Claude_working_dir/dota2_assistant/build/tests/unit
+"GSIConnectorTest.ProcessGSIUpdate" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"GSIConnectorTest.ProcessGSIUpdate" end time: Mar 27 13:31 W. Europe Standard Time
+"GSIConnectorTest.ProcessGSIUpdate" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 27 13:31 W. Europe Standard Time

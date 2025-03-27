@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Claude_working_dir\dota2_assistant\build\CMakeFiles\95e9b478669e9f77e82057f5a6438ba1\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6DFC71F9-3158-3C6E-A21E-8D5137CDB38C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
