@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libdota2_assistant_services.a CMakeFiles/dota2_assistant_services.dir/dummy.cpp.o
+/usr/bin/ranlib ../../lib/libdota2_assistant_services.a

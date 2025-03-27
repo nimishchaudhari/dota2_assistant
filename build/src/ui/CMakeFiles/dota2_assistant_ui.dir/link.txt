@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libdota2_assistant_ui.a CMakeFiles/dota2_assistant_ui.dir/placeholder.cpp.o
+/usr/bin/ranlib ../../lib/libdota2_assistant_ui.a

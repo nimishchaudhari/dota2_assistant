@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Claude_working_dir\dota2_assistant\build\_deps\googletest-subbuild\CMakeFiles\77c5a93738766e37b7da5f868be14345\googletest-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Claude_working_dir\dota2_assistant\build\_deps\googletest-subbuild\CMakeFiles\77c5a93738766e37b7da5f868be14345\googletest-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Claude_working_dir\dota2_assistant\build\_deps\googletest-subbuild\CMakeFiles\77c5a93738766e37b7da5f868be14345\googletest-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Claude_working_dir\dota2_assistant\build\_deps\googletest-subbuild\CMakeFiles\77c5a93738766e37b7da5f868be14345\googletest-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Claude_working_dir\dota2_assistant\build\_deps\googletest-subbuild\CMakeFiles\77c5a93738766e37b7da5f868be14345\googletest-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Claude_working_dir\dota2_assistant\build\_deps\googletest-subbuild\CMakeFiles\77c5a93738766e37b7da5f868be14345\googletest-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Claude_working_dir\dota2_assistant\build\_deps\googletest-subbuild\CMakeFiles\77c5a93738766e37b7da5f868be14345\googletest-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Claude_working_dir\dota2_assistant\build\_deps\googletest-subbuild\CMakeFiles\77c5a93738766e37b7da5f868be14345\googletest-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Claude_working_dir\dota2_assistant\build\_deps\googletest-subbuild\CMakeFiles\4a7a7793a9a6f6994838822a1c44e043\googletest-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Claude_working_dir\dota2_assistant\build\_deps\googletest-subbuild\CMakeFiles\6e27e13180c955f5c25b44ed2a93e3a5\googletest-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Claude_working_dir\dota2_assistant\build\_deps\googletest-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Claude_working_dir\dota2_assistant\build\_deps\googletest-subbuild\CMakeFiles\googletest-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{88D1A5AE-73AD-312F-A725-3D575E29D3D9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

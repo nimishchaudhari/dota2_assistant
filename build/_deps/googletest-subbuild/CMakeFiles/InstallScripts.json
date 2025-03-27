@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/Claude_working_dir/dota2_assistant/build/_deps/googletest-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

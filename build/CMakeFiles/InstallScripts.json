@@ -1,0 +1,20 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/Claude_working_dir/dota2_assistant/build/cmake_install.cmake",
+		"D:/Claude_working_dir/dota2_assistant/build/_deps/googletest-build/cmake_install.cmake",
+		"D:/Claude_working_dir/dota2_assistant/build/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"D:/Claude_working_dir/dota2_assistant/build/_deps/googletest-build/googletest/cmake_install.cmake",
+		"D:/Claude_working_dir/dota2_assistant/build/src/cmake_install.cmake",
+		"D:/Claude_working_dir/dota2_assistant/build/src/core/cmake_install.cmake",
+		"D:/Claude_working_dir/dota2_assistant/build/src/services/cmake_install.cmake",
+		"D:/Claude_working_dir/dota2_assistant/build/src/analysis/cmake_install.cmake",
+		"D:/Claude_working_dir/dota2_assistant/build/src/ui/cmake_install.cmake",
+		"D:/Claude_working_dir/dota2_assistant/build/src/utils/cmake_install.cmake",
+		"D:/Claude_working_dir/dota2_assistant/build/tests/cmake_install.cmake",
+		"D:/Claude_working_dir/dota2_assistant/build/tests/unit/cmake_install.cmake",
+		"D:/Claude_working_dir/dota2_assistant/build/tests/integration/cmake_install.cmake",
+		"D:/Claude_working_dir/dota2_assistant/build/tests/performance/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/unit_tests.dir/test_game_state.cpp.o -o ../../bin/unit_tests  ../../lib/libgtest_main.a ../../lib/libgmock_main.a ../../lib/libdota2_assistant_core.a ../../lib/libdota2_assistant_services.a ../../lib/libgmock.a ../../lib/libgtest.a ../../lib/libdota2_assistant_core.a
