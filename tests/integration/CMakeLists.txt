@@ -1,20 +1,14 @@
 # CMakeLists.txt for integration tests
 
-# Integration test executable
-add_executable(integration_tests)
+# Integration tests will be added later
+# For now, adding a placeholder to ensure CMake configuration works
 
-target_sources(integration_tests PRIVATE
-    # Add test source files here as they are created
+# Add a placeholder executable so CMake doesn't error out
+add_executable(integration_tests_placeholder EXCLUDE_FROM_ALL
+    placeholder.cpp
 )
 
-target_link_libraries(integration_tests PRIVATE
-    gtest_main
-    dota2_assistant_core
-    dota2_assistant_services
-    dota2_assistant_analysis
-    dota2_assistant_ui
-    dota2_assistant_utils
+target_link_libraries(integration_tests_placeholder PRIVATE
+    GTest::gtest
+    GTest::gmock
 )
-
-include(GoogleTest)
-gtest_discover_tests(integration_tests)

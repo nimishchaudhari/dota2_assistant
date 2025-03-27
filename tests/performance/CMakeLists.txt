@@ -1,29 +1,14 @@
 # CMakeLists.txt for performance tests
 
-# Performance test executable
-add_executable(performance_tests)
+# Performance tests will be added later
+# For now, adding a placeholder to ensure CMake configuration works
 
-target_sources(performance_tests PRIVATE
-    # Add test source files here as they are created
+# Add a placeholder executable so CMake doesn't error out
+add_executable(performance_tests_placeholder EXCLUDE_FROM_ALL
+    placeholder.cpp
 )
 
-target_link_libraries(performance_tests PRIVATE
-    gtest_main
-    benchmark::benchmark
-    dota2_assistant_core
-    dota2_assistant_services
-    dota2_assistant_analysis
-    dota2_assistant_ui
-    dota2_assistant_utils
+target_link_libraries(performance_tests_placeholder PRIVATE
+    GTest::gtest
+    GTest::gmock
 )
-
-# Google Benchmark
-FetchContent_Declare(
-    benchmark
-    GIT_REPOSITORY https://github.com/google/benchmark.git
-    GIT_TAG v1.7.1
-)
-FetchContent_MakeAvailable(benchmark)
-
-include(GoogleTest)
-gtest_discover_tests(performance_tests)
