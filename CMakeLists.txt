@@ -35,6 +35,15 @@ endif()
 # Add source directories
 add_subdirectory(src)
 
+# Main executable
+add_executable(dota2_assistant src/main.cpp)
+
+target_link_libraries(dota2_assistant PRIVATE
+    dota2_assistant_core
+    dota2_assistant_services
+    dota2_assistant_utils
+)
+
 # Enable testing
 enable_testing()
 add_subdirectory(tests)
