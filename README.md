@@ -113,17 +113,29 @@ The structure will evolve with each issue implementation, as detailed in the Git
    cd dota2_assistant
    ```
 
-2. Install dependencies:
+2. For the simplest build experience, use the clean build script:
+   ```
+   scripts/clean_build.bat
+   ```
+   This script will:
+   - Remove any existing build directory
+   - Download dependencies
+   - Generate build files
+   - Build the project in Release mode
+
+3. **Manual Setup** (alternative to the script above):
+
+   a. Install dependencies:
    ```
    scripts/setup_dependencies.bat
    ```
 
-3. Generate build files:
+   b. Generate build files:
    ```
    cmake -B build -S .
    ```
 
-4. Build the project:
+   c. Build the project:
    ```
    cmake --build build --config Release
    ```
@@ -145,16 +157,29 @@ Some tests require Dota 2 to be running. These are marked with `[DOTA2]` in the 
    ctest -C Release -R "DOTA2"
    ```
 
+### GSI Connector Tests
+To run just the GSI connector tests:
+```
+ctest -C Release -R "GSIConnector|GameState"
+```
+
 ### Troubleshooting
 
 #### CMake Errors
-If you encounter CMake errors related to dependencies, try clearing the build directory and rebuilding:
+If you encounter CMake errors related to dependencies:
 
-```
-rm -rf build/ # or rmdir /s /q build on Windows
-cmake -B build -S .
-cmake --build build --config Release
-```
+1. Use the clean build script which handles most common issues:
+   ```
+   scripts/clean_build.bat
+   ```
+
+2. If that doesn't work, try manually clearing the build directory:
+   ```
+   rmdir /s /q build   # Windows
+   # or rm -rf build    # Linux/Mac
+   ```
+   
+3. Make sure you have CMake 3.20+ installed. The project requires modern CMake features.
 
 #### Missing HTTP Library
 If the build fails due to missing `httplib.h`, run the setup script manually:
@@ -164,6 +189,9 @@ scripts/setup_dependencies.bat
 ```
 
 Or download it manually from https://github.com/yhirose/cpp-httplib/blob/master/httplib.h and place it in `src/utils/`.
+
+#### Git Issues
+If you see Git-related errors when fetching dependencies, ensure Git is properly installed and accessible in your PATH.
 
 ## Contributing
 
