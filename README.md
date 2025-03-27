@@ -145,11 +145,25 @@ Some tests require Dota 2 to be running. These are marked with `[DOTA2]` in the 
    ctest -C Release -R "DOTA2"
    ```
 
-### Mock Testing
-For CI/CD and situations where Dota 2 is not available, mock versions of tests are provided:
+### Troubleshooting
+
+#### CMake Errors
+If you encounter CMake errors related to dependencies, try clearing the build directory and rebuilding:
+
 ```
-ctest -C Release -R "Mock"
+rm -rf build/ # or rmdir /s /q build on Windows
+cmake -B build -S .
+cmake --build build --config Release
 ```
+
+#### Missing HTTP Library
+If the build fails due to missing `httplib.h`, run the setup script manually:
+
+```
+scripts/setup_dependencies.bat
+```
+
+Or download it manually from https://github.com/yhirose/cpp-httplib/blob/master/httplib.h and place it in `src/utils/`.
 
 ## Contributing
 
