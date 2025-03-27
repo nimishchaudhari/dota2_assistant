@@ -43,6 +43,10 @@ The Dota 2 AI Assistant consists of several key components:
 6. **Database**: Stores match data, metrics, and settings
 7. **Voice Interaction System**: Handles voice commands and responses
 
+## Current Development Status
+
+- [in progress] [Issue #1: Implement GSI Connector for Dota 2 Data Collection](https://github.com/nimishchaudhari/dota2_assistant/issues/1)
+
 ## Development Plan
 
 The project will be implemented in the following order:
