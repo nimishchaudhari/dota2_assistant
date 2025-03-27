@@ -1,7 +1,9 @@
 @echo off
 REM This script sets up dependencies for the Dota 2 AI Assistant project
 
-echo Downloading cpp-httplib...
+echo Setting up dependencies for Dota 2 AI Assistant...
+
+REM Create directories if they don't exist
 if not exist src\utils mkdir src\utils
 
 REM Download cpp-httplib
@@ -11,6 +13,8 @@ powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/y
 if %ERRORLEVEL% neq 0 (
     echo Failed to download cpp-httplib
     exit /b 1
+) else (
+    echo Successfully downloaded cpp-httplib to src\utils\httplib.h
 )
 
 echo Dependencies setup complete!
