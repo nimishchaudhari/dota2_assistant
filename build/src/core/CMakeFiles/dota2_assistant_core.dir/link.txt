@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libdota2_assistant_core.a CMakeFiles/dota2_assistant_core.dir/game_state.cpp.o
+/usr/bin/ranlib ../../lib/libdota2_assistant_core.a

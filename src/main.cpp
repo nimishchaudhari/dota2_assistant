@@ -4,7 +4,6 @@
 #include <signal.h>
 
 #include "core/game_state.h"
-#include "services/gsi_connector.h"
 
 // Global flag for signal handling
 volatile sig_atomic_t gRunning = 1;
@@ -19,9 +18,12 @@ int main() {
     // Register signal handler for Ctrl+C
     signal(SIGINT, signalHandler);
     
-    std::cout << "Dota 2 AI Assistant - GSI Connector Test" << std::endl;
+    std::cout << "Dota 2 AI Assistant" << std::endl;
     std::cout << "========================================" << std::endl;
     
+#ifdef WIN32
+    #include "services/gsi_connector.h"
+
     // Create game state
     dota2::GameState gameState;
     
@@ -69,5 +71,9 @@ int main() {
     gsiConnector.shutdown();
     
     std::cout << "GSI connector shutdown complete." << std::endl;
+#else
+    std::cout << "GSI connector is disabled on this platform." << std::endl;
+#endif
+
     return 0;
 }
