@@ -223,18 +223,23 @@ void GSIConnector::processGSIUpdate(const std::string& jsonData) {
     try {
         json = nlohmann::json::parse(jsonData);
     } catch (const nlohmann::json::parse_error& e) {
-        std::cerr << "Failed to parse GSI JSON: " << e.what() << std::endl;
+        std::cerr << "Failed to parse GSI JSON: " << e.what() << ", data: " << jsonData << std::endl;
         return;
     }
     
     // Validate the JSON schema
     if (!validateJsonSchema(json)) {
-        std::cerr << "Invalid GSI JSON schema." << std::endl;
+        std::cerr << "Invalid GSI JSON schema, data: " << jsonData << std::endl;
         return;
     }
     
     // Update game state
-    updateGameState(json);
+    try {
+        updateGameState(json);
+    } catch (const std::exception& e) {
+        std::cerr << "Error updating game state: " << e.what() << ", data: " << jsonData << std::endl;
+        return;
+    }
     
     // Update last update time
     lastUpdateTime_ = std::chrono::steady_clock::now();
@@ -246,23 +251,95 @@ void GSIConnector::processGSIUpdate(const std::string& jsonData) {
     }
 }
 
+// Define the JSON schema for GSI data
+    static const nlohmann::json gsiSchema = {
+        {"type", "object"},
+        {"properties", {
+            {"provider", {
+                {"type", "object"},
+                {"properties", {
+                    {"name", {"type", "string"}},
+                    {"appid", {"type", "string"}},
+                    {"version", {"type", "string"}},
+                    {"timestamp", {"type", "integer"}}
+                }, {"required", {"name", "appid", "version", "timestamp"}}}
+            }},
+            {"map", {
+                {"type", "object"},
+                {"properties", {
+                    {"name", {"type", "string"}},
+                    {"matchid", {"type", "string"}},
+                    {"game_state", {"type", "string"}},
+                    {"game_time", {"type", "integer"}},
+                    {"clock_time", {"type", "integer"}},
+                    {"daytime", {"type", "boolean"}},
+                    {"nightstalker_night", {"type", "boolean"}}
+                }}
+            }},
+            {"player", {
+                {"type", "object"},
+                {"properties", {
+                    {"name", {"type", "string"}},
+                    {"steamid", {"type", "string"}},
+                    {"team", {"type", "integer"}},
+                    {"gold", {"type", "integer"}},
+                    {"gold_reliable", {"type", "integer"}},
+                    {"gold_unreliable", {"type", "integer"}}
+                }}
+            }},
+            {"hero", {
+                {"type", "object"},
+                {"properties", {
+                    {"name", {"type", "string"}},
+                    {"id", {"type", "integer"}},
+                    {"level", {"type", "integer"}},
+                    {"alive", {"type", "boolean"}},
+                    {"respawn_seconds", {"type", "integer"}},
+                    {"health_percent", {"type", "number"}},
+                    {"mana_percent", {"type", "number"}},
+                    {"has_buyback", {"type", "boolean"}}
+                }}
+            }},
+            {"abilities", {
+                {"type", "object"},
+                {"additionalProperties", {
+                    {"type", "object"},
+                    {"properties", {
+                        {"id", {"type", "integer"}},
+                        {"name", {"type", "string"}},
+                        {"level", {"type", "integer"}},
+                        {"can_cast", {"type", "boolean"}},
+                        {"passive", {"type", "boolean"}},
+                        {"ultimate", {"type", "boolean"}},
+                        {"cooldown", {"type", "number"}},
+                        {"hidden", {"type", "boolean"}}
+                    }}
+                }}
+            }},
+            {"items", {
+                {"type", "object"},
+                {"additionalProperties", {
+                    {"type", "object"},
+                    {"properties", {
+                        {"id", {"type", "integer"}},
+                        {"name", {"type", "string"}},
+                        {"charges", {"type", "integer"}},
+                        {"purchasable", {"type", "boolean"}},
+                        {"cooldown", {"type", "number"}},
+                        {"passive", {"type", "boolean"}}
+                    }}
+                }}
+            }}
+        }, {"required", {"provider"}}}
+    };
 bool GSIConnector::validateJsonSchema(const nlohmann::json& json) const {
-    // Basic validation: Check for required top-level objects
-    if (!json.contains("provider")) {
+    try {
+        json.validate(gsiSchema);
+        return true;
+    } catch (const nlohmann::json::exception& e) {
+        std::cerr << "JSON validation failed: " << e.what() << std::endl;
         return false;
     }
-    
-    // Check provider data
-    const auto& provider = json["provider"];
-    if (!provider.contains("name") || !provider.contains("appid") || 
-        !provider.contains("version") || !provider.contains("timestamp")) {
-        return false;
-    }
-    
-    // More detailed validation could be added here for other required fields
-    // For now, we'll consider this sufficient
-    
-    return true;
 }
 
 void GSIConnector::updateGameState(const nlohmann::json& json) {
